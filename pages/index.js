@@ -11,7 +11,7 @@ export default function Home({productList}) {
       <Head>
         <title>Food ordering app</title>
         <meta name="description" content="Best neapolitan pizza in Cracow!" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" passHref/>
       </Head>
       <Featured />
       <ProductList productList={productList}/>
